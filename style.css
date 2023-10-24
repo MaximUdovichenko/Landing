@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #2947A9;
+}
+
+body {
+    font-family: "Work Sans";
+}
+
+.container {
+    margin: auto;
+    max-width: 1486px;
+}
+
+.header__content {
+    display: flex;
+    margin: 16px 0;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.header__logo-title {
+    font-weight: 700;
+    font-style: italic;
+    align-self: center;
+    color: var(--primary-color);
+    font-size: 30px;
+}
+
+.nav__content {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+.nav__link {
+    font-size: 18px;
+    cursor: pointer;
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav__link--contacts {
+    font-weight: 600;
+    color: #f9995d;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
