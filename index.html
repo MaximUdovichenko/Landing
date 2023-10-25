@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="header">
+    <header class="header">
         <div class="container">
             <div class="header__content">
                 <div class="header__logo">
@@ -34,6 +34,55 @@
                 </div>
             </div>
         </div>
-    </div>
+    </header>
+
+    <main>
+        <div class="gallery">
+            <div class="gallery__content">
+                <div class="gallery__image"></div>
+                <div class="gallery__mask"></div>
+                <div class="gallery__text">
+                    Managing tasks is our mission.
+                </div>
+            </div>
+            <div class="gallery__manager">
+                <div class="gallery__manager-body">
+                    <div class="gallery__manager-header">Feature Projects</div>
+                    <div class="gallery__manager-text">Presentation of World Best Task manager ever</div>
+                </div>
+                <div class="gallery__controls">
+                    <div class="gallery__control">
+                        <img class="gallery__control-arrow" src="assets/vector_left.svg" alt="arrow-left">
+                        <div class="gallery__control-text">Back</div>
+                    </div>
+                    <div class="gallery__control">
+                        <div class="gallert__controls-arrow">Next</div>
+                        <img class="gallery__control-arrow" src="assets/vector_right.svg" alt="arrow-right">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="manager-container">
+            <div class="manager-wrapper">
+                <div class="manager-container__header">Try it by yourself!</div>
+                    <div class="task-manager">
+                        <div class="task-manager__header">my tasks</div>
+                        <div class="task-manager__body">
+                            <div class="task-manager-controller">
+                                <input class="task-manager-input" type="text" placeholder="New task...">
+                                <select name="priority" id="priority">
+                                    <option value="default">Priority</option>
+                                </select>
+                                <div class="task-manager-btn">Add</div>
+                            </div>
+                            <div class="task-manager__data">
+                                <div class="task-manager__item"></div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
